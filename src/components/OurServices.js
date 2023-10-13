@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
 function OurServices() {
+  document.title='OLVERA-Services';
   return (
     <>
     <div className='outer'>

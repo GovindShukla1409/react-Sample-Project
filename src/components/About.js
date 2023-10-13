@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 function About() {
+  document.title='OLVERA-About';
   return (
     <>
     <div className='outer'>

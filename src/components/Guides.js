@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
 function Guides() {
+  document.title='OLVERA-Guides';
   return (
     <>
     <div className='outer'>
