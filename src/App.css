@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/* font-family: 'Montserrat Alternates', sans-serif; */
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+a:hover{
+  color: #C2278E !important;
+}
+.outer{
+  width: 100%;
+  position: relative;
+}
+.headertop{
+  background: #C2278E;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+}
+.headertop h3{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.75);
+}
+.logo{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.logo img{
+  width: 100%;
+  max-width: 160px;
+}
+.menu{
+  display: block;
+  width: 100%;
+}
+.menu ul{
+  padding: 0px;
+  margin: 0px;
+}
+.menu ul li{
+  list-style: none;
+  margin: 0px 18px 5px ;
+  display: inline-block; 
+}
+.menu ul li a{
+  text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu ul li.active a:after{
+  position: absolute;
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: #C2278E;
+  left: 0px;
+  transition: 0.5s;
+  bottom: -4px;
+}
+.menu ul li a:active:after, .menu ul li a:focus:after, .menu ul li a:visited:after{
+  position: absolute;
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: #C2278E;
+  left: 0px;
+  transition: 0.5s;
+  bottom: -4px;
+}
+.menu ul li a:hover:after{
+  position: absolute;
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: #C2278E;
+  transition: 0.5s;
+  left: 0px;
+  bottom: -4px;
+}
+.menu ul li button{
+  background: #C2278E;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 22px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.homebanner{ 
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background: url("../src/components/assets/images/business-cardboard.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.homebanner:after{
+  background: #0000005c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-cont{
+ position: relative;
+ z-index: 11;
+ padding: 24% 0px;
+}
+.banner-cont h2{
+font-size: 62px;
+letter-spacing: 0.3;
+color: #fff;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+max-width: 500px;
+margin-bottom: 20px;
+}
+.banner-cont button{
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 100px;
+  background: #F837B7;
+}
+
+
+/* -----about us-- */
+
+.aboutbanner{
+  background: #C2278E;
+  width: 100%; 
+  padding: 10% 0px;
+}
+.aboutbanner h3{
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif; 
+  float: left;
+  width: 100%;
+  font-weight: 400;
+}
+.aboutbanner p{
+  float: right;
+  max-width: 400px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.aboubannertimg{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.aboubannertimg span {
+  width: 200px;
+  height: auto;
+}
+.aboubannertimg span img{
+width: 100%;
+}
+
+/* ----services--- */
+
+.services_outer{
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  border-top: 2px solid #C2278E;
+}
+.serv_top{
+  float: left;
+  width: 100%;
+}
+.serv_top ul{
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.serv_top ul li{
+  list-style: none;
+  text-align: left;
+}
+.serv_top ul li  h2{
+  color: #C2278E;
+  font-size: 46px;
+  font-weight: bold;
+  display: block;
+}
+.serv_top ul li span{
+  color: #000;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 600;
+
+}
+
+.serc_cont_left{
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+.serc_cont_left span{
+  color: #C2278E;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.serc_cont_left h2{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+  max-width: 500px;
+  margin: 15px 0px 40px;
+}
+.serc_cont_left p{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #999;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.serc_cont_right{
+  float: left;
+  width: 100%;
+}
+.serc_cont_right ul{
+  padding: 0;
+  width: 100%;
+}
+.serc_cont_right ul li{
+  list-style: none;
+  position: relative;
+  padding: 10px 0px;
+  border-bottom: 2px solid #ccc;
+  margin: 10px 0px;
+}
+.serc_cont_right ul li:after{
+  position: absolute;
+  bottom: -2px;
+  left: 0px; 
+  content: '';
+  height: 2px;
+  width: 30px;
+  background: #000;
+}
+.serc_cont_right ul li span{
+  color: #C2278E;
+  font-size: 14px;
+  font-weight: bold;
+}
+.serc_cont_right ul li h3{
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+.serc_cont_right ul li h3 a{
+  float: right;
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+/* -----guides--- */
+
+.guidesbanner{
+  background:url(../src/components/assets/images/guides.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; 
+  padding: 10% 0px;
+}
+.guidesbanner h3{
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif; 
+  float: left;
+  width: 100%;
+  font-weight: 400;
+}
+.guidesbanner p{
+  max-width: 800px;
+    color: #fff;
+    margin-top: 90px;
+    display: block;
+}
+.viewmore{
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.viewmore span{
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+}
+.viewmore a{
+  width: 80px;
+  height: 80px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+/* // careers  */
+
+.careerbanner{ 
+  position: relative;
+  background: #fff;
+  width: 100%; 
+  padding: 10% 0px;
+  float: left;
+}
+.careerbanner::after{
+  width: 50%;
+  background:url(../src/components/assets/images/career.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.career_left{
+  width: 50%;
+  float: left;
+} 
+.career_left span{
+  color: #C2278E;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.career_left  h2{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+    max-width: 500px;
+    margin: 15px 0px 40px;
+}
+.career_left p{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0px;
+    max-width: 500px;
+}
+.career_left a{
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 100px;
+  background: #F837B7;
+  color: #000;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin-top: 33px;
+  display: inline-block;
+}
+.career_left a:hover{
+  color: #000 !important;
+}
+
+/* //experience */
+
+.experience_box{
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  font-family: Plus Jakarta Sans;
+}
+.experience_box h1{ 
+  font-size: 40px;
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* ///footer */
+
+
+.footer{
+  float: left;
+  width: 100%;
+  background: #000;
+  padding: 100px 0px 20px;
+  margin-top: 40px;
+}
+.footer h2{
+  font-size: 40px;
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  text-align: center;
+}
+.footer p{
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  color: #999;
+  font-family: Plus Jakarta Sans;
+  margin: 40px 0px;
+}
+.getstarted{
+  text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 100px;
+    background: #F837B7;
+    padding: 15px 30px;
+}
+
+.footerlog{
+  float: left;
+  width: 100%;
+}
+.footerlog img{
+  max-width: 200px;
+  width: 100%;
+}
+.footerlog p{
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  color: #999;
+  font-family: Plus Jakarta Sans;
+  margin: 40px 0px;
+}
+.footermenu{
+  float: left;
+  font-family: Plus Jakarta Sans;
+  width: 100%;
+}
+.footermenu h2{
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin: 0px 0 20px;
+}
+.footermenu ul{
+  padding: 0;
+  display: block;
+}
+.footermenu ul li{
+  list-style: none;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.footermenu ul li a{
+  text-decoration: none;
+  color: #666;
+  font-size: 15px;
+}
+.copybox{
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding: 20px 0px 0px;
+}
+.copy{
+  font-size: 14px;
+  color: #666;
+  margin: 0px !important;
+}
