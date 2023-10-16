@@ -4,7 +4,6 @@ import Olvera from './assets/images/Olvera-Logo-Black 2.png'
 
 const Footer = () => {
   return (
-   
    <>
    <div className='footer'>
 
